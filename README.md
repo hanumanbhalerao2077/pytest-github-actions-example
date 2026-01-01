@@ -22,3 +22,18 @@ pytest -v -s
 If you have any questions about the project please raise an Issue on GitHub. 
 
 [![Coverage Status](coverage.svg)](https://github.com/ericsalesdeandrade/pytest-github-actions-example)
+
+
+
+
+## CI Pipeline (GitHub Actions)
+
+This repository uses GitHub Actions for Continuous Integration.
+
+### Workflow features:
+- Triggered on every push and pull request
+- Runs on Ubuntu latest runner
+- Installs dependencies from requirements.txt
+- Executes PyTest test suite automatically
+
+This ensures code quality and prevents breaking changes.
